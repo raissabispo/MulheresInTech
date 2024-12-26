@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma de Números</title>
+</head>
+<body>
+    <form>
+        <label for="numeroUm">Primeiro número:</label>
+        <input type="number" name="numeroUm" id="numeroUm">
+        <br><br>
+        <label for="numeroDois">Segundo número:</label>
+        <input type="number" name="numeroDois" id="numeroDois">
+        <br><br>
+        <button type="button" onclick="somar()">Somar</button>
+    </form>
+
+    <script>
+        function somar() {
+            // Obter os valores dos campos de entrada
+            const numero1 = Number(document.getElementById('numeroUm').value);
+            const numero2 = Number(document.getElementById('numeroDois').value);
+            
+            // Calcular a soma
+            const soma = numero1 + numero2;
+
+            // Criar a mensagem de resultado
+            const mensagem = `A soma de ${numero1} e ${numero2} é ${soma}.`;
+
+            // Exibir o resultado no alerta
+            alert(mensagem);
+        }
+    </script>
+</body>
+</html>

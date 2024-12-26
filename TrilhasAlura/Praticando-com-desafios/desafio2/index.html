@@ -1,0 +1,17 @@
+<!-- Tenha um elemento HTML na página (por exemplo, um parágrafo) e utilize JavaScript para modificar seu conteúdo usando a propriedade textContent. -->
+
+<html>
+   
+    <body>
+    <p id="conteudo">Texto original</p>
+        <button onclick="modificarConteudo()">Modificar Conteúdo</button>
+        <script>
+        
+            function modificarConteudo() {
+                const paragrafo = document.getElementById('conteudo');
+                paragrafo.textContent = 'Novo texto modificado dinamicamente!';
+            }
+                </script>
+        
+    </body>
+</html>

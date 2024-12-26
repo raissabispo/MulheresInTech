@@ -1,6 +1,7 @@
-// Faça o download de outro projeto clicando neste link e abra no Visual Studio Code.
 
 // Altere o conteúdo da tag h1 com document.querySelector e atribua o seguinte texto: Hora do Desafio.
+
+let titulo = document.querySelector
 
 // Crie uma função que exiba no console a mensagem O botão foi clicado sempre que o botão Console for pressionado.
 
