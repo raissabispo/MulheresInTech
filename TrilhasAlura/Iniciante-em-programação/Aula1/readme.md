@@ -1,4 +1,4 @@
-## Iniciando com Javacsript 
+## Iniciando com Javascript 
 
 Nessa aula aprendi sobre a linguagem de programação javascript e seus conceitos: 
 
